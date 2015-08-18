@@ -1,0 +1,86 @@
+From bob4mail at gmail.com  Mon Jul 24 23:06:36 2006
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Mon, 24 Jul 2006 23:06:36 +0200
+Subject: [Synapse-devel] quelli che... aspettano la 0.1-alpha...
+Message-ID: <44C5365C.6040809@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ostia, da quanto non mi faccio sentire!
+Ma sappiate che, anche se scrivo poco in lista, lo sviluppo di
+Hyppocampus + Synapse procede a gonfie vele!
+
+
+Hyppocampus: implementato in forma di modulo FUSE, attualmente e' in
+grado di creare e rimuovere files (tenendo ordinata la struttura dati su
+cui si fonda il tutto) e di eseguire semplici query SQL, il tutto "on
+top" del filesystem reale installato sulla macchina (sostanzialmente
+durante l'installazione viene creata una cartella nascosta nella ~/
+dell'utente che contiene il file autodescrivente del filesystem ed i
+files veri e propri). Non ho mai avuto il coraggio di provare ad
+eseguire query complesse, ma esiste attualmente supporto per gli
+operatori AND, OR, =, <, <=, >, >= ed e' stato largamente imbastito per
+reggere l'operatore speciale per la ricerca su espressioni regolari
+sulle stringhe (che non credo esista in SQL standard, correggetemi se
+sbaglio). Sono stati indicizzati una trentina di tipi di metadato
+possibili, e molti altri sono previsti prossimamente (se ne possono
+creare 2^64 :-P ).
+
+Synapse: al contrario di quanto espresso sinora, e' stato implementato
+from scratch, essendo piu' semplice costruire una cosa partendo da zero
+(usando i widget gia' esistenti in GTK+) che non studiandosi quel mostro
+di Nautilus. Supporto per i tab, le shortcut da tastiera, un
+(abbozzato...) editor grafico per le query SQL. Uno screenshot della
+versione corrente si trova qui ->
+http://synapse.berlios.de/synapse_preview.png .
+Ora come ora sto lavorando sul widget "synapse_icon_stacked_view",
+derivato dall'originaria gtk_icon_view e che permettera' di
+rappresentare efficacemente (si spera!) l'operatore "group by" (non
+ancora implementato) eseguito sui dati in Hyppocampus: qui un mockup
+http://synapse.berlios.de/group_by.png dell'idea, qui
+http://synapse.berlios.de/synapse_harness_shot.png e qui
+http://synapse.berlios.de/synapse_harness_shot_2.png i risultati attuali.
+
+SCD: una new entry nel mondo Lobotomy, che almeno all'inizio sara' un
+componente imprescindibile di Synapse. Il SubConsciuos Daemon si propone
+di essere uno strumento per l'estrazione automatica dei metadati
+associati ai files che vengono man mano creati / modificati in
+Hyppocampus: sfruttando il meccanismo di inotify implementato nella
+serie 2.6 del kernel Linux potra' "intercettare" ogni modifica
+all'interno del filesystem virtuale ed esaminare i nuovi files comparsi
+estraendone, per mezzo della libextractor (
+http://gnunet.org/libextractor/index.php?xlang=English ) e di altri
+mezzi ( file(1) ), alcune informazioni con cui arricchire la lista di
+metadati ad essi associati. Ora come ora ne esiste solo lo scheletro
+fondamentale, e probabilmente non sara' minimamente usabile per un altro
+po' (ho altro cui pensare!)
+
+
+Alla luce degli sviluppi attuali confido di rilasciare una release
+0.1-alpha sia di Hyppocampus che di Synapse non appena avro' risolto
+qualche minimo problemuccio con la suddetta synapse_icon_stacked_view e
+dopo aver testato un minimo piu' approfonditamente il parser SQL
+integrato in Hyppocampus (attualmente e' veramente molto
+semplicistico...), dunque per la meta' di agosto (come avrete intuito,
+niente vacanze per me, quest'anno...), dunque tenetevi pronti a portarvi
+il laptop in spiaggia per debuggare ;-P
+
+
+- --
++-----------------------------+---------------------------+
+|   Roberto -MadBob- Guido    | GPL Project Manager:      |
++-----------------------------+ http://BrainTop.sf.net    |
+| bob4mail[AT]gmail[DOT]com   | http://Hyppocampus.sf.net |
+| http://madbob.homelinux.com | http://Synapse.berlios.de |
++-----------------------------+---------------------------+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFExTZc4FoJpnnNInwRAnooAJ9xuNtIGRqL7fjHRxrfsArZ2UtrDgCgxFZZ
+VgoAj935T2K6vwqYe8L5uLs=
+=M/ya
+-----END PGP SIGNATURE-----
+
+

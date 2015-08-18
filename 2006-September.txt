@@ -1,0 +1,45 @@
+From bob4mail at gmail.com  Tue Sep 12 23:04:02 2006
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Tue, 12 Sep 2006 23:04:02 +0200
+Subject: [Synapse-devel] 0.1.1
+Message-ID: <450720C2.5090800@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ad un mese dalla 0.1, rilascio anche la release 0.1.1 sia di Hyppocampus
+che di Synapse.
+
+Qualche miglioria nel parser SQL del primo, qualche grosso baco corretto
+nel secondo.
+
+La piu' grossa introduzione consiste nella barra per le ricerche di
+keywords nei documenti, in Synapse, liberamente ispirata dallo Spotlight
+di MacOS: ora come ora non fa nulla, ma si spera di avere gia' nella
+prossima release quantomeno le basi per supportare tale meccanismo:
+l'estrattore automatico di parole chiave in SCD e qualche ottimizzazione
+in piu' nel parser di Hyppocampus.
+
+Scaricate e testate numerosi :-P !
+
+
+- --
++--- -- -                                                --  ----+
+|                                                                |
+|   Roberto -MadBob- Guido ---+--- bob4mail[AT]gmail[DOT]com     |
+                              |                                  .
+.                             +--- http://madbob.homelinux.com
+   Step #1 in programming:    |
+|     understand people       +--- http://lobotomy.sf.net        |
+|                                                                |
++--- ---- -                                             -- -  ---+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFByBZ4FoJpnnNInwRAlwaAKCGueZ4Gfa5Hxj3FzH0SQcaUp1xhwCeL8om
+9EsBuvtEpWjqws5I7NT7mNg=
+=p2+k
+-----END PGP SIGNATURE-----
+
+

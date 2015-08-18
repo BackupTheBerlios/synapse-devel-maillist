@@ -1,0 +1,42 @@
+From bob4mail at gmail.com  Tue Nov 15 21:01:35 2005
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Tue, 15 Nov 2005 21:01:35 +0100
+Subject: [Synapse-devel] base di codice
+Message-ID: <437A3E9F.7050600@gmail.com>
+
+Allora: nell'intento di iniziare finalmente a pacioccare un poco con Synapse
+(per realizzare lo pseudo-demo proposto qualche tempo fa', composto dalla prima
+versione di Synapse che si affaccia ad un filesystem fittizio governato da
+un'applicazioncina che finge di essere Hyppocampus e parzialmente gia'
+realizzata) ho iniziato a dare una occhiata a Nautilus, il file manager di Gnome
+che, di primo acchito, e' stato considerato il migliore candidato per offrire
+una base di codice al progetto.
+
+Ebbene: mi devo ricredere. Non certo perche' Nautilus non sarebbe un buon punto
+di partenza (tutt'altro!!!), ma perche'... e' di una complessita' spaventosa! Ho
+bazzicato per i sorgenti una ventina di minuti, e mi son reso conto che fa
+riferimento al non plus ultra della tecnologia Gnome: gnome-vfs, gnomecanvas,
+corba... Insomma: mettere le mani su quello vorrebbe dire passare almeno un mese
+solo per capire *dove* mettere le mani, e purtroppo dubito di poterlo fare.
+
+Indi, nella prospettiva di sviluppare qualcosa di concreto al piu' presto e di
+iniziare a proporre qualcosa, stavo valutando di partire da XFFM (il file
+manager di XFCE, piuttosto elementare e per questo utile solo per realizzare una
+piccola e modestissima demo) o da Thunar (quello destinato a diventare il futuro
+file manager di XFCE: un po' piu' complesso, ho appena checkout-tato i sorgenti
+dal repository SVN e devo dargli ancora una occhiata... Potrebbe addirittura
+prendere direttamente il posto di Nautilus nell'ottica dello sviluppo prossimo
+futuro).
+
+Volevo solo farlo sapere, e, nel caso, invitare tutti a buttare un occhio a
+codesti progetti (piu' al secondo che al primo...) e vedere cosa ne pensate.
+
+-- 
++-----------------------------+---------------------------+
+|   Roberto -MadBob- Guido    | GPL Project Manager:      |
++-----------------------------+ http://BrainTop.sf.net    |
+| bob4mail[AT]gmail[DOT]com   | http://Hyppocampus.sf.net |
+| http://madbob.homelinux.com | http://Synapse.berlios.de |
++-----------------------------+---------------------------+
+
+

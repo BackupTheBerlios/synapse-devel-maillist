@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Synapse-devel] 0.2.1 + news
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/synapse-devel/2007-March/index.html" >
+   <LINK REL="made" HREF="mailto:synapse-devel%40lists.berlios.de?Subject=Re%3A%20%5BSynapse-devel%5D%200.2.1%20%2B%20news&In-Reply-To=%3C46051FC8.3010209%40gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Synapse-devel] 0.2.1 + news</H1>
+    <B>Roberto -MadBob- Guido</B> 
+    <A HREF="mailto:synapse-devel%40lists.berlios.de?Subject=Re%3A%20%5BSynapse-devel%5D%200.2.1%20%2B%20news&In-Reply-To=%3C46051FC8.3010209%40gmail.com%3E"
+       TITLE="[Synapse-devel] 0.2.1 + news">bob4mail at gmail.com
+       </A><BR>
+    <I>Sat Mar 24 13:55:36 CET 2007</I>
+    <P><UL>
+        
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#17">[ date ]</a>
+              <a href="thread.html#17">[ thread ]</a>
+              <a href="subject.html#17">[ subject ]</a>
+              <a href="author.html#17">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+L'altro giorno, con discreto ritardo sulla tabella di marcia (ho perso
+il ritmo della release ogni mese, ma in questo periodo ho accumulato
+notevoli quantita' di lavoro esterno...), e' stata rilasciata la
+versione 0.2.1 di Hyppocampus e di Synapse. Tra le novita' di maggior
+rilievo, il pannello per l'editing delle &quot;actions&quot; in Synapse (che
+permette di aggiungere comandi al menu contestuale dei files in funzione
+dei metadati ad esso associati) ed il primo plugin di Hyppocampus,
+dedicato al parsing dei files vCARD usati da KAddressBook ed altre
+applicazioni per immagazzinare le informazioni sui contatti di rubrica.
+Questa e' una release prettamente transitoria, ammetto di non aver avuto
+modo di testare sufficientemente le nuove features e ci sono discrete
+probabilita' di failure, ma tant'e'... Release early, release often...
+
+Qualche news sul progetto Lobotomy nella sua interezza:
+- - ho aperto un blog dedicato al progetto, che verra' via via aggiornato
+(con scarsa frequenza, ma costantemente) con informazioni sullo stato
+dello sviluppo e (soprattutto) pensieri e parole in merito alle altre
+tecnologie simili e potenzialmente ispiratorie. Puntate i vostri browser
+su <A HREF="http://lobotomy-dev.blogspot.com">http://lobotomy-dev.blogspot.com</A>
+- - il componente SubConsciousDaemon e' stato estratto dal package di
+Synapse ed ha guadagnato lo status di progetto indipendente, con una sua
+propria pagina per lo sviluppo, i suoi propri trackers, una sua mailing
+list ed altro. Per maggiori informazioni: <A HREF="https://gna.org/projects/scd">https://gna.org/projects/scd</A>
+- - finalmente mi son deciso ad iniziare ad usare in modo completo gli
+strumenti messi a disposizione dai siti che ospitano i vari componenti
+del progetto Lobotomy: sia nella pagina di SCD che in quella di
+Hyppocampus (e prossimamente lo stesso accadra' per Synapse) ho iniziato
+a popolare i trackers dedicati ai &quot;todo&quot;, si' da mettere in luce le
+attivita' su cui si dovrebbe lavorare prossimamente, sperando di carpire
+l'attenzione di potenziali developers di passaggio e ricevere supporto.
+In particolare, la lista di Hyppocampus e' colma di sotto-progetti il
+cui scopo e' la creazione di applicazioni di supporto esterne al
+filesystem stesso, e la cui implementazione non implica dunque una
+conoscenza degli internals del sistema.
+
+La roadmap per la release 0.2.2 prevede, tra le nuove funzionalita' di
+spicco, una sorta di &quot;traduttore di query&quot; da usare in Synapse (e non
+solo) che permettera' all'utente di definire le proprie query di ricerca
+in linguaggio &quot;umano&quot; (ovvero: coi nomi dei metadati anziche' i loro
+identificativi numerici, le date in formato locale anziche' in Unix
+time, gli utenti di sistema col nome anziche' con lo UID ed altro...) e
+(ma su questo ancora devo valutare in base al tempo a disposizione) una
+prima serie di tools commandline per usare facilmente Hyppocampus anche
+da linea di comando (o, ancora meglio, nei propri script bash).
+
+- --
++--- -- -                                                --  ----+
+|<i>                                                                |
+</I>|<i>   Roberto -MadBob- Guido ---+--- bob4mail[AT]gmail[DOT]com     |
+</I>                              |                                  .
+.                             +--- <A HREF="http://madbob.homelinux.com">http://madbob.homelinux.com</A>
+   Step #1 in programming:    |
+|<i>     understand people       +--- <A HREF="http://lobotomy.sf.net">http://lobotomy.sf.net</A>        |
+</I>|<i>                                                                |
+</I>+--- ---- -                                             -- -  ---+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - <A HREF="http://enigmail.mozdev.org">http://enigmail.mozdev.org</A>
+
+iD8DBQFGBR/IRgBX4SLVA3IRAjnyAJ920UAm3bWNZeSiG3cYcIihTXV44gCfUibH
+axYZqrd4KrpdXtit1IMbsQo=
+=9bh1
+-----END PGP SIGNATURE-----
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#17">[ date ]</a>
+              <a href="thread.html#17">[ thread ]</a>
+              <a href="subject.html#17">[ subject ]</a>
+              <a href="author.html#17">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/synapse-devel">More information about the Synapse-devel
+mailing list</a><br>
+</body></html>

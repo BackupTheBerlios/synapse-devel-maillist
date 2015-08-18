@@ -1,0 +1,57 @@
+From bob4mail at gmail.com  Tue Dec 19 01:24:17 2006
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Tue, 19 Dec 2006 01:24:17 +0100
+Subject: [Synapse-devel] 0.1.3
+Message-ID: <45873131.5080507@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ebbene si: quest'anno Babbo Natale vi porta la release 0.1.3 di
+Hyppocampus + Synapse :-P
+
+Metto le mani avanti preannunciando che ho rilasciato il pacco completo
+lasciando ancora qualche bug sparso qua e la', ma 1) non ho tempo per
+dedicarmi ad una sessione di debug vera e propria 2) non c'ho voglia di
+dedicarmi ad una sessione di debug vera e propria...
+In ogni caso, numerosi problemi del parser SQL implementato all'interno
+del filesystem sono stati corretti, e con un po' di fortuna si possono
+eseguire numerose query senza segfault di sorta.
+
+Tengo a porre l'accento su Synapse, da cui sono stati estrapolati i
+widgets GTK ed immessi in una nuova libreria che a breve avra' una sua
+propria pagina dedicata sul sito di Lobotomy: Kiazma.
+Ora che e' stato parzialmente corretto il filesystem, le nozioni legate
+al paradigma di rappresentazione dei dati relazionali iniziano a prender
+forma: nella pagina degli screenshots di Synapse si puo' vedere una
+prima (ed assai rudimentale) forma della disposizione a pile delle icone.
+
+Per il prossimo futuro, vorrei dedicarmi un poco di piu'
+all'introduzione di nuove features avanzate, quali le Mnemonic Boxes
+(che avevo gia' annunciato per questa release, ma di cui poi non son
+riuscito ad analizzare abbastanza approfonditamente le implicazioni) e
+l'OnMouseShell (gia' visto in BrainTop, ma certamente piu' soddisfacente
+in Synapse).
+Per non parlare del SubConscious Daemon, che ultimamente ho molto
+snobbato (e a tutt'oggi non e' ancora usabile...)...
+
+- --
++--- -- -                                                --  ----+
+|                                                                |
+|   Roberto -MadBob- Guido ---+--- bob4mail[AT]gmail[DOT]com     |
+                              |                                  .
+.                             +--- http://madbob.homelinux.com
+   Step #1 in programming:    |
+|     understand people       +--- http://lobotomy.sf.net        |
+|                                                                |
++--- ---- -                                             -- -  ---+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFhzEx9/pQV+r+R/MRAtvnAJ9YLlh4fCYE5nRk5A4/hnupZVxk+gCgiw5q
+83SoLj7YRhqUGrB3KAugcks=
+=0DtN
+-----END PGP SIGNATURE-----
+
+

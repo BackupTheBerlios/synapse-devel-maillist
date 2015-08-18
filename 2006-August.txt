@@ -1,0 +1,105 @@
+From bob4mail at gmail.com  Thu Aug 10 19:14:33 2006
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Thu, 10 Aug 2006 19:14:33 +0200
+Subject: [Synapse-devel] ebbene si... 0.1!!!
+Message-ID: <44DB6979.6000304@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Siori e siore: le release 0.1 sia di Hyppocampus che di Synapse sono
+on-line ;-). Se non mi do da fare quando sono in ferie dal lavoro non
+combino mai nulla...
+
+Scaricate dai rispettivi siti (senza l'uno ve ne fate poco
+dell'altro...), installate (leggetevi bene i README che potreste avere
+qualche problema: per coerenza faccio installare la libreria condivisa
+inclusa nel pacchetto di Hyppocampus in /usr/local/lib , ma non in tutte
+le distribuzioni tale directory si trova nella definizione di
+LD_LIBRARY_PATH , dunque occorre mettercela a mano...), collaudate ed
+inviate segnalazioni / patch / suggerimenti / insulti / correzioni ai
+testi scritti nel mio inglese maccaronico ( :-P ).
+
+Per d1s4st3r (che a quest'ora sara' in ferie chissa' dove... Torna qui a
+lavorare! [ :-P ] ): nella lista dei TODO di Synapse c'e' l'inclusione
+di un set di icone per identificare i tipi MIME, per ora ci ho ficcato
+quelle che ho trovato nel mio sistema ma gia' sai che questo e' lavoro
+per te... ;-)
+
+Per Dave (almeno te ci sei, no???): tempo fa' mi accennasti (forse? O
+magari non eri tu? Ma chi se lo ricorda...) a del codice per estrarre i
+contenuti dei files ("stem"?), su cui poi avrebbero dovuto agire gli
+agenti intelligenti. Ce l'hai? Funziona? Gli si puo' dare una occhiata,
+o quantomeno avere qualche indicazione sui criteri su cui si basa?
+
+
+- --
++-----------------------------+---------------------------+
+|   Roberto -MadBob- Guido    | GPL Project Manager:      |
++-----------------------------+ http://BrainTop.sf.net    |
+| bob4mail[AT]gmail[DOT]com   | http://Hyppocampus.sf.net |
+| http://madbob.homelinux.com | http://Synapse.berlios.de |
++-----------------------------+---------------------------+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFE22l54FoJpnnNInwRAo0TAKDnosnSiSTkiGtLomf+A9MWYTmICwCgnH+G
+twmSk4y/7yDr3Ena+6gISI8=
+=yKFv
+-----END PGP SIGNATURE-----
+
+
+From bob4mail at gmail.com  Tue Aug 15 01:02:05 2006
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Tue, 15 Aug 2006 01:02:05 +0200
+Subject: [Synapse-devel] lobotomy project website
+Message-ID: <44E100ED.7000507@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+E fu cosi' che, nella prima ora del ferragosto 2006, mi trovai, tanto
+per cambiare, appiccicato al PC a pensare al lavoro... :-P
+
+Dunque: quelli di SourceForge mi hanno approvato il progetto Lobotomy,
+che non serve a null'altro che fare da punto di riferimento per gli
+altri progetti di cui voi siete iscritti alle relative mailing list.
+Attualmente ho caricato sulla pagina ( http://lobotomy.sf.net ) solo
+quel che dovrebbe essere il template su cui verra' sviluppato il resto
+(manca ancora della roba...), ma qui viene il bello: ho pensato che
+accollarsi la manutenzione di un ennesimo sito e' cosa da matti, quando
+gia' gli altri tre vengono aggiornati poco e male giusto in occasione
+delle rispettive release (per coloro iscritti solo alla ML di BrainTop:
+Hyppocampus e Synapse sono stati contemporaneamente rilasciati in
+versione 0.1, accorrete numerosi :-P ), ma non se tale website prende il
+posto degli altri e tutto si riassume in un unico "portale" generico!
+Una sezione per ogni progetto ( http://lobotomy.sf.net/braintop ,
+http://lobotomy.sf.net/hyppocampus ...), un'unica pagina per le news,
+un'unica pagina per credits e contatti, un'unica pagina di riferimento
+per la documentazione tecnica e non... Gia' che praticamente si rifa' il
+sito, e' la volta buona che lo scrivo pure direttamente in inglese...
+
+Che ne pensate? Accetto voti in merito, accompagnati dalle relative
+motivazioni.
+
+Saluti, e... Buon Ferragosto :-P
+
+
+- --
++-----------------------------+---------------------------+
+|   Roberto -MadBob- Guido    | GPL Project Manager:      |
++-----------------------------+ http://BrainTop.sf.net    |
+| bob4mail[AT]gmail[DOT]com   | http://Hyppocampus.sf.net |
+| http://madbob.homelinux.com | http://Synapse.berlios.de |
++-----------------------------+---------------------------+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFE4QDs4FoJpnnNInwRAi4vAKCW7qDPlWwzpxHDI9IdfC33nP7qdwCglrMJ
+nPsO71423h/FSdYEkLNr7IU=
+=aV0P
+-----END PGP SIGNATURE-----
+
+

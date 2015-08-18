@@ -1,0 +1,305 @@
+From bob4mail at gmail.com  Thu Sep  8 23:26:13 2005
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Thu, 08 Sep 2005 23:26:13 +0200
+Subject: [Synapse-devel] Re: Template per Synapse
+In-Reply-To: <e80ad15f0509080245727269e9@mail.gmail.com>
+References: <e80ad15f05090502393e4e756d@mail.gmail.com>	 <431CC70C.2060502@gmail.com>	 <e80ad15f0509070328125b5595@mail.gmail.com>	 <431F53C0.9090806@gmail.com> <e80ad15f0509080245727269e9@mail.gmail.com>
+Message-ID: <4320AC75.9050402@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+d1s4st3r mental_insomnia wrote:
+> Mi piacerebbe molto realizzare il sito di Synapse (e, visto che ? gi? da un 
+> po' che desidero imparare il PHP ma non ho mai avuto lo stimolo, questa 
+> potrebbe essere l'occasione giusta :-),
+>
+Come gia' detto, sarebbe meglio qualcosa di fondamentalmente statico, piu' che
+altro perche' altrimenti bisogna chiedere lo spazio sul DB a quelli di BerliOS
+(anzi: non son neppure sicuro che lo forniscano!).
+
+> Se hai piacere che inizi gi? a far qualcosa, dimmelo pure!
+> 
+Mah... Quasi quasi...
+Ti ho accennato al fatto che servirebbero un paio di icone speciali per
+BrainTop, per identificare i nuovi pannelli di configurazione dei menu e delle
+"attivita'" nel pannellone di controllo generico. Le alternative sono due:
+1) creare due icone ispirate allo stile di default, preso di peso da XFCE 4.0
+(qui -> http://braintop.sourceforge.net/documentazione/users/strumenti.html uno
+shot).
+2) ricreare l'intero set, composto di nove icone (le otto dell'immagine di cui
+sopra, piu' quella per le "attivita'").
+
+Vedi tu se hai tempo e voglia di farle tutte o solo le due che mancano...
+Dovrebbero essere .xpm (che vengono poi convertite in una mappa di bit da
+includere direttamente nel codice), 48x48 .
+
+> In realt? mi ero iscritto, ma stamattina ho ricevuto una poco gentile 
+> risposta di rifiuto da un tal "Mail Delivery Subsystem" (non so se lo 
+> conosci :-). Comunque ho rifatto la procedura e ora sono iscritto.
+> 
+Infatti... Ecco qui :-).
+Spero tu riceva questa mail, possiamo continuare la discussione in lista (in
+modo da avere uno storico...)
+
+Saluti!
+
+
+- --
++-----------------------------+---------------------------+
+|   Roberto -MadBob- Guido    | GPL Project Manager:      |
++-----------------------------+ http://BrainTop.sf.net    |
+| bob4job[AT]gmail[DOT]com    | http://Hyppocampus.sf.net |
+| http://madbob.homelinux.com | http://Synapse.berlios.de |
++-----------------------------+---------------------------+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (GNU/Linux)
+
+iD8DBQFDIKx0QkVucjSDSjURAg7rAJ42aiTPjTi08zbml0cFkWGoHS8QcQCgoxuD
+hYkCeUQjr0nWp+Q3JDiUbYE=
+=epOb
+-----END PGP SIGNATURE-----
+
+
+From d1s4st3r at gmail.com  Sun Sep 11 19:46:17 2005
+From: d1s4st3r at gmail.com (d1s4st3r mental_insomnia)
+Date: Sun, 11 Sep 2005 19:46:17 +0200
+Subject: [Synapse-devel] Sito Synapse e icone BrainTop
+Message-ID: <e80ad15f050911104657cee391@mail.gmail.com>
+
+Ciao!
+S? mi ? arrivata la mail dalla ML!
+Non sono riuscito a risponderti prima perch? in questi due giorni ho avuto 
+qualche serio problema con la pioggia (che ha oltrepassato le mura 
+domestiche... ).
+Comunque ho finito il sito di Synapse (basato sul template che ti avevo 
+spedito), devo solo fare due ritocchi, e sto disegnando il nuovo set di 9 
+icone per BrainTop. Appena ? tutto pronto te lo spedisco!
+
+Saluti :-)
+
+-- 
+______________
+(*)--[::::::::::::::]--(*)
+(*)--[>::d1s4st3r::<]--(*)
+(*)--[::::::::::::::]--(*)
+(*)--[::wonder'ing::]--(*)
+(*)--[::what's::::::]--(*)
+(*)--[::^happening::]--(*)
+(*)--[::|^::::::::::]--(*)
+(*)--[__||__________]--(*)
+|......................|
+http://xoomer.virgilio.it/
++------> mental_insomnia/
+(*) <-------------------+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/synapse-devel/attachments/20050911/2a37982d/attachment.html>
+
+From bob4mail at gmail.com  Sun Sep 11 22:22:12 2005
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Sun, 11 Sep 2005 22:22:12 +0200
+Subject: [Synapse-devel] Sito Synapse e icone BrainTop
+In-Reply-To: <e80ad15f050911104657cee391@mail.gmail.com>
+References: <e80ad15f050911104657cee391@mail.gmail.com>
+Message-ID: <432491F4.3050702@gmail.com>
+
+d1s4st3r mental_insomnia wrote:
+> Ciao!
+> S? mi ? arrivata la mail dalla ML!
+> Non sono riuscito a risponderti prima perch? in questi due giorni ho avuto 
+> qualche serio problema con la pioggia (che ha oltrepassato le mura 
+> domestiche... ).
+>
+Ah, ecco... E' che non ero sicuro che l'avessi ricevuta...
+Spiacente per il disastro casalingo: spero non sia stato fatto troppo danno non
+reparabile solo con un bel colpo di spazzolone!
+
+> Comunque ho finito il sito di Synapse (basato sul template che ti avevo 
+> spedito), devo solo fare due ritocchi, e sto disegnando il nuovo set di 9 
+> icone per BrainTop. Appena ? tutto pronto te lo spedisco!
+> 
+Bene, benissimo!
+Puoi provare a mandare l'archivio compresso in lista, ma ti avverto sin da ora
+che SourceForge ha un limite di dimensione abbastanza basso: al piu', quando e'
+pronto manda tutto direttamente al mio indirizzo privato.
+
+Grazie ancora ;-)
+Saluti!
+
+
+-- 
++-----------------------------+---------------------------+
+|   Roberto -MadBob- Guido    | GPL Project Manager:      |
++-----------------------------+ http://BrainTop.sf.net    |
+| bob4mail[AT]gmail[DOT]com   | http://Hyppocampus.sf.net |
+| http://madbob.homelinux.com | http://Synapse.berlios.de |
++-----------------------------+---------------------------+
+
+
+From d1s4st3r at gmail.com  Mon Sep 19 17:43:13 2005
+From: d1s4st3r at gmail.com (d1s4st3r_@t_[ mental_insomnia ])
+Date: Mon, 19 Sep 2005 17:43:13 +0200
+Subject: [Synapse-devel] Sito Synapse
+Message-ID: <432EDC91.2050400@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ecco qui il sito di Synapse!
+
+
+- --
+      ______________
+(*)--[::::::::::::::]--(*)
+(*)--[>::d1s4st3r::<]--(*)
+(*)--[::::::::::::::]--(*)
+(*)--[::wonder'ing::]--(*)
+(*)--[::what's::::::]--(*)
+(*)--[::^happening::]--(*)
+(*)--[::|^::::::::::]--(*)
+(*)--[__||__________]--(*)
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.1 (GNU/Linux)
+Comment: Using GnuPG with Thunderbird - http://enigmail.mozdev.org
+
+iD8DBQFDLtyPKnu5Sf4MgFgRAkKbAJ4mKRNP9kkh88sd2GyPu+HGcWsGEwCggJs9
+bwvAz7K0JAe359LJIa6/53U=
+=VixA
+-----END PGP SIGNATURE-----
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: Sito_Synapse.tar.bz2
+Type: application/x-bzip
+Size: 180818 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/synapse-devel/attachments/20050919/6ee31337/attachment.bin>
+
+From bob4mail at gmail.com  Wed Sep 21 21:49:26 2005
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Wed, 21 Sep 2005 21:49:26 +0200
+Subject: [Synapse-devel] Sito Synapse
+In-Reply-To: <432EDC91.2050400@gmail.com>
+References: <432EDC91.2050400@gmail.com>
+Message-ID: <4331B946.3070701@gmail.com>
+
+d1s4st3r_ at t_[ mental_insomnia ] wrote:
+> Ecco qui il sito di Synapse!
+> 
+Bella li' :-).
+
+Ho solo due accorgimenti da proporre.
+Si potrebbe adottare un colore meno scuro per i links visitati, che altrimenti
+non si leggono piu' (il fatto che siano gia' stati visitati non vuol dire che
+l'utente non voglia tornare a dargli una occhiata ;-) !)?
+E si potrebbe rimuovere la cornicetta bianca in rollover (ma che carina ;-) !!!)
+dal riquadro che ospita il logo? Non essendo di per se' un elemento attivo, mi
+sembra un controsenso renderlo sensibile al passaggio del mouse...
+
+In ogni caso, ti ringrazio tanto per il lavoro svolto: se mi fai queste due
+modifichine qui uppo tutto sul server di BerliOS :-)
+
+A presto ;-)
+
+-- 
++-----------------------------+---------------------------+
+|   Roberto -MadBob- Guido    | GPL Project Manager:      |
++-----------------------------+ http://BrainTop.sf.net    |
+| bob4mail[AT]gmail[DOT]com   | http://Hyppocampus.sf.net |
+| http://madbob.homelinux.com | http://Synapse.berlios.de |
++-----------------------------+---------------------------+
+
+
+From d1s4st3r at gmail.com  Wed Sep 21 23:06:20 2005
+From: d1s4st3r at gmail.com (d1s4st3r_@t_[ mental_insomnia ])
+Date: Wed, 21 Sep 2005 23:06:20 +0200
+Subject: [Synapse-devel] Sito Synapse
+In-Reply-To: <4331B946.3070701@gmail.com>
+References: <432EDC91.2050400@gmail.com> <4331B946.3070701@gmail.com>
+Message-ID: <4331CB4C.5050006@gmail.com>
+
+Roberto -MadBob- Guido wrote:
+> Bella li' :-).
+> 
+> Ho solo due accorgimenti da proporre.
+> Si potrebbe adottare un colore meno scuro per i links visitati, che altrimenti
+> non si leggono piu' (il fatto che siano gia' stati visitati non vuol dire che
+> l'utente non voglia tornare a dargli una occhiata ;-) !)?
+> E si potrebbe rimuovere la cornicetta bianca in rollover (ma che carina ;-) !!!)
+> dal riquadro che ospita il logo? Non essendo di per se' un elemento attivo, mi
+> sembra un controsenso renderlo sensibile al passaggio del mouse...
+> 
+> In ogni caso, ti ringrazio tanto per il lavoro svolto: se mi fai queste due
+> modifichine qui uppo tutto sul server di BerliOS :-)
+> 
+> A presto ;-)
+> 
+
+
+Ecco qui le modifiche! :-)
+Basta sostituire il vecchio "style.css" con quello allegato ed ? tutto a
+posto!
+Ho tolto anche la cornicetta (che tra l'altro ho scoperto che con Il
+Malefico - aka "Internet Exploder" - non funziona... della serie "w gli
+standard"). L'avevo messa pi? che altro per dare un po' di dinamicit?
+alla pagina e per far s? che l'utente sappia sempre in quale zona dello
+schermo si trova il cursore del mouse... :P :P :P LOL!
+Ora ? bianca e immobile.
+
+Ciao! :-)
+
+
+- --
+      ______________
+(*)--[::::::::::::::]--(*)
+(*)--[>::d1s4st3r::<]--(*)
+(*)--[::::::::::::::]--(*)
+(*)--[::wonder'ing::]--(*)
+(*)--[::what's::::::]--(*)
+(*)--[::^happening::]--(*)
+(*)--[::|^::::::::::]--(*)
+(*)--[__||__________]--(*)
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: style.css
+Type: text/css
+Size: 1945 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/synapse-devel/attachments/20050921/378ba161/attachment.css>
+
+From bob4mail at gmail.com  Wed Sep 21 23:24:44 2005
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Wed, 21 Sep 2005 23:24:44 +0200
+Subject: [Synapse-devel] Sito Synapse
+In-Reply-To: <4331CB4C.5050006@gmail.com>
+References: <432EDC91.2050400@gmail.com> <4331B946.3070701@gmail.com> <4331CB4C.5050006@gmail.com>
+Message-ID: <4331CF9C.3040902@gmail.com>
+
+d1s4st3r_ at t_[ mental_insomnia ] wrote:
+> Ecco qui le modifiche! :-)
+> Basta sostituire il vecchio "style.css" con quello allegato ed ? tutto a
+> posto!
+> Ho tolto anche la cornicetta (che tra l'altro ho scoperto che con Il
+> Malefico - aka "Internet Exploder" - non funziona... della serie "w gli
+> standard"). L'avevo messa pi? che altro per dare un po' di dinamicit?
+> alla pagina e per far s? che l'utente sappia sempre in quale zona dello
+> schermo si trova il cursore del mouse... :P :P :P LOL!
+> Ora ? bianca e immobile.
+> 
+Voila': uppato :-). Mi son preso anche la liberta' di menzionarti nella pagina
+dei collaboratori ;-).
+
+Grazie mille, quando ci incrociamo in facolta' ti offro il caffe': temo di non
+poterti ricompensare altrimenti, almeno per ora ;-).
+
+
+-- 
++-----------------------------+---------------------------+
+|   Roberto -MadBob- Guido    | GPL Project Manager:      |
++-----------------------------+ http://BrainTop.sf.net    |
+| bob4mail[AT]gmail[DOT]com   | http://Hyppocampus.sf.net |
+| http://madbob.homelinux.com | http://Synapse.berlios.de |
++-----------------------------+---------------------------+
+
+

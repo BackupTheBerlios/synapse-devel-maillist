@@ -1,0 +1,70 @@
+From bob4mail at gmail.com  Sun Oct  2 21:00:41 2005
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Sun, 02 Oct 2005 21:00:41 +0200
+Subject: [Synapse-devel] concept prototype hyppocampus + synapse
+Message-ID: <43402E59.9040500@gmail.com>
+
+Saluti, gente_che_non_si_fa_mai_sentire: scrivo in lista (anzi in list*e*) piu'
+per annunciare una mezza ideuzza che mi frulla in testa da qualche tempo che
+altro...
+
+Da diverso tempo non paciocco piu' con il concept prototype di Hyppocampus,
+anche perche' piu' o meno fa tutto quel che dovrebbe fare e si tratterebbe piu'
+che altro di ottimizzarlo (e ho detto poco :-P !), per non parlare del fatto che
+ultimamente mi son dedicato piu' a BrainTop e, avendo il tempo disponibile col
+contagocce, non posso dedicarmi a molte cose contemporaneamente.
+Comunque, nell'ottica di realizzare qualcosa di concreto sia per Hyppocampus (di
+cui per ora esiste solo quello straccio di concept prototype) che per Synapse
+(di cui non esiste assolutamente *nulla*), pensavo di fondere le due cose
+insieme e realizzare un "demo" dei due: sostanzialmente, si tratterebbe di
+modificare quel tanto che basta Nautilus per aggiungere le funzionalita'
+richieste per operare sul filesystem relazionale e per "pescare" non gia' dal
+filesystem reale ma su quello "simulato" costruito da Hyppocampus.
+
+Credo (spero!) che non sia nulla di troppo complicato (alla fine i piu' grandi
+ostacoli per l'implementazione di Synapse riguardano gli aspetti puramente
+grafici e di interazione con l'utente, della parte "filesystemistica" si occupa
+Hyppocampus), e, con un pochino di impegno, potrei far saltare fuori qualcosa
+nel giro di un mesetto.
+
+In ogni caso, come gia' detto, ora come ora sto sistemando BrainTop, dunque il
+mio "annuncio" e' piu' che altro una richiesta di pareri in merito all'idea: piace?
+
+
+-- 
++-----------------------------+---------------------------+
+|   Roberto -MadBob- Guido    | GPL Project Manager:      |
++-----------------------------+ http://BrainTop.sf.net    |
+| bob4mail[AT]gmail[DOT]com   | http://Hyppocampus.sf.net |
+| http://madbob.homelinux.com | http://Synapse.berlios.de |
++-----------------------------+---------------------------+
+
+
+From bob4mail at gmail.com  Sun Oct 16 20:49:56 2005
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Sun, 16 Oct 2005 20:49:56 +0200
+Subject: [Synapse-devel] sito saltato!
+Message-ID: <4352A0D4.1000106@gmail.com>
+
+Ma... Ma...
+Son tocco io, oppure avevo effettivamente uppato il tuo nuovo sito di Synapse su
+BerliOS.de?
+E' che poco fa' ho fatto un salto sulla pagina, ma mi son ritrovato tutto
+esattamente com'era prima, col vecchio sito che avevo fatto io!
+
+Mah... Ora uppo nuovamente il tutto, vediamo che succede...
+
+Sapevo che dovevo fidarmi poco di BerliOS... Quasi quasi cerco qualcun'altro per
+l'hosting (non SF che ogni volta bisogna litigarci! Ci ho messo un mese per
+registrare Hyppocampus!)
+
+
+-- 
++-----------------------------+---------------------------+
+|   Roberto -MadBob- Guido    | GPL Project Manager:      |
++-----------------------------+ http://BrainTop.sf.net    |
+| bob4mail[AT]gmail[DOT]com   | http://Hyppocampus.sf.net |
+| http://madbob.homelinux.com | http://Synapse.berlios.de |
++-----------------------------+---------------------------+
+
+

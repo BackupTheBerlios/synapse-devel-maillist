@@ -1,0 +1,68 @@
+From bob4mail at gmail.com  Tue Jan 23 23:36:49 2007
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Tue, 23 Jan 2007 23:36:49 +0100
+Subject: [Synapse-devel] 0.2
+Message-ID: <45B68E01.5040806@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ennesima nuova release di Hyppocampus + Synapse (e componenti
+collaterali), talmente nuova che si inaugura oggi la serie 0.2 ;-)
+
+Il filesystem presenta un primo abbozzo di ottimizzatore SQL e,
+soprattutto, una prima implementazione del meccanismo di plugins di cui
+si parla piu' approfonditamente qui ->
+http://lobotomy.sourceforge.net/docs/Improve_Memory_with_Mnemonics-0.1.html
+
+Il filemanager include un nuovo pannello per le proprieta' dei files (il
+vecchio faceva abbastanza schifio, questo almeno e' un tantino piu'
+ingegnerizzato...) e soprattutto una prima implementazione
+dell'OnMouse-Shell, killer feature che, una volta perfezionata (al
+momento non fa un gran che', ma tutto e' gia' pronto per sfruttare
+appieno questa tecnologia...), caratterizzera' definitivamente questa
+applicazione.
+
+Insieme a Synapse si trova (finalmente!) una prima versione funzionante
+del SubConscious Daemon, il quale, interfacciandosi al resto del sistema
+con DBUS, funge da supervisore pro-attivo dedito alla manutenzione e
+all'arricchimento automatico dei dati immessi nel filesystem.
+
+Una piccola anticipazione sulla roadmap (che ho iniziato a stendere,
+forse tardivamente, solo da questa versione :-P ): la serie 0.2 sara' in
+particolar modo incentrata sull'estensibilita' dei diversi componenti di
+Lobotomy, si da aprire a tutti i volenterosi lo sviluppo di nuovi
+plugins che permettano di concretizzare almeno una parte dei traguardi
+teorizzati in questo breve paper:
+http://lobotomy.sourceforge.net/docs/What%20about%20a%20relational%20filesystem-0.1.html
+Gia' dalla prossima release spero di allegare un plugin dedicato
+all'estrazione dei dati dalla rubrica di Thunderbird, in modo da fornire
+un case study ed un pezzo di codice da cui prendere ispirazione.
+
+Ultimissima annotazione: stasera magari non faccio in tempo, e forse
+neppure questa settimana, ma al piu' presto ho intenzione di aggiungere
+al sito anche una pagina dedicata ai TODO (le applicazioni che in questa
+immagine http://lobotomy.sourceforge.net/images/gerarchia.png appaiono
+in giallo): ho in serbo idee e progetti che fanno impallidire quanto
+sinora accennato in merito a Hyppocampus ;-P
+
+- --
++--- -- -                                                --  ----+
+|                                                                |
+|   Roberto -MadBob- Guido ---+--- bob4mail[AT]gmail[DOT]com     |
+                              |                                  .
+.                             +--- http://madbob.homelinux.com
+   Step #1 in programming:    |
+|     understand people       +--- http://lobotomy.sf.net        |
+|                                                                |
++--- ---- -                                             -- -  ---+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFFto4BRgBX4SLVA3IRAn5mAJ9GcXMuKW3VDzinyoUDtzcYpJpCRACgjZcG
+HWYv6PCGeFEcOSVz8ozVASw=
+=ZsN9
+-----END PGP SIGNATURE-----
+
+

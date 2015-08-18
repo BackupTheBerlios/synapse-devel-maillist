@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Synapse-devel] quelli che... aspettano la 0.1-alpha...
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/synapse-devel/2006-July/index.html" >
+   <LINK REL="made" HREF="mailto:synapse-devel%40lists.berlios.de?Subject=Re%3A%20%5BSynapse-devel%5D%20quelli%20che...%20aspettano%20la%200.1-alpha...&In-Reply-To=%3C44C5365C.6040809%40gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Synapse-devel] quelli che... aspettano la 0.1-alpha...</H1>
+    <B>Roberto -MadBob- Guido</B> 
+    <A HREF="mailto:synapse-devel%40lists.berlios.de?Subject=Re%3A%20%5BSynapse-devel%5D%20quelli%20che...%20aspettano%20la%200.1-alpha...&In-Reply-To=%3C44C5365C.6040809%40gmail.com%3E"
+       TITLE="[Synapse-devel] quelli che... aspettano la 0.1-alpha...">bob4mail at gmail.com
+       </A><BR>
+    <I>Mon Jul 24 23:06:36 CEST 2006</I>
+    <P><UL>
+        
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#10">[ date ]</a>
+              <a href="thread.html#10">[ thread ]</a>
+              <a href="subject.html#10">[ subject ]</a>
+              <a href="author.html#10">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Ostia, da quanto non mi faccio sentire!
+Ma sappiate che, anche se scrivo poco in lista, lo sviluppo di
+Hyppocampus + Synapse procede a gonfie vele!
+
+
+Hyppocampus: implementato in forma di modulo FUSE, attualmente e' in
+grado di creare e rimuovere files (tenendo ordinata la struttura dati su
+cui si fonda il tutto) e di eseguire semplici query SQL, il tutto &quot;on
+top&quot; del filesystem reale installato sulla macchina (sostanzialmente
+durante l'installazione viene creata una cartella nascosta nella ~/
+dell'utente che contiene il file autodescrivente del filesystem ed i
+files veri e propri). Non ho mai avuto il coraggio di provare ad
+eseguire query complesse, ma esiste attualmente supporto per gli
+operatori AND, OR, =, &lt;, &lt;=, &gt;, &gt;= ed e' stato largamente imbastito per
+reggere l'operatore speciale per la ricerca su espressioni regolari
+sulle stringhe (che non credo esista in SQL standard, correggetemi se
+sbaglio). Sono stati indicizzati una trentina di tipi di metadato
+possibili, e molti altri sono previsti prossimamente (se ne possono
+creare 2^64 :-P ).
+
+Synapse: al contrario di quanto espresso sinora, e' stato implementato
+from scratch, essendo piu' semplice costruire una cosa partendo da zero
+(usando i widget gia' esistenti in GTK+) che non studiandosi quel mostro
+di Nautilus. Supporto per i tab, le shortcut da tastiera, un
+(abbozzato...) editor grafico per le query SQL. Uno screenshot della
+versione corrente si trova qui -&gt;
+<A HREF="http://synapse.berlios.de/synapse_preview.png">http://synapse.berlios.de/synapse_preview.png</A> .
+Ora come ora sto lavorando sul widget &quot;synapse_icon_stacked_view&quot;,
+derivato dall'originaria gtk_icon_view e che permettera' di
+rappresentare efficacemente (si spera!) l'operatore &quot;group by&quot; (non
+ancora implementato) eseguito sui dati in Hyppocampus: qui un mockup
+<A HREF="http://synapse.berlios.de/group_by.png">http://synapse.berlios.de/group_by.png</A> dell'idea, qui
+<A HREF="http://synapse.berlios.de/synapse_harness_shot.png">http://synapse.berlios.de/synapse_harness_shot.png</A> e qui
+<A HREF="http://synapse.berlios.de/synapse_harness_shot_2.png">http://synapse.berlios.de/synapse_harness_shot_2.png</A> i risultati attuali.
+
+SCD: una new entry nel mondo Lobotomy, che almeno all'inizio sara' un
+componente imprescindibile di Synapse. Il SubConsciuos Daemon si propone
+di essere uno strumento per l'estrazione automatica dei metadati
+associati ai files che vengono man mano creati / modificati in
+Hyppocampus: sfruttando il meccanismo di inotify implementato nella
+serie 2.6 del kernel Linux potra' &quot;intercettare&quot; ogni modifica
+all'interno del filesystem virtuale ed esaminare i nuovi files comparsi
+estraendone, per mezzo della libextractor (
+<A HREF="http://gnunet.org/libextractor/index.php?xlang=English">http://gnunet.org/libextractor/index.php?xlang=English</A> ) e di altri
+mezzi ( file(1) ), alcune informazioni con cui arricchire la lista di
+metadati ad essi associati. Ora come ora ne esiste solo lo scheletro
+fondamentale, e probabilmente non sara' minimamente usabile per un altro
+po' (ho altro cui pensare!)
+
+
+Alla luce degli sviluppi attuali confido di rilasciare una release
+0.1-alpha sia di Hyppocampus che di Synapse non appena avro' risolto
+qualche minimo problemuccio con la suddetta synapse_icon_stacked_view e
+dopo aver testato un minimo piu' approfonditamente il parser SQL
+integrato in Hyppocampus (attualmente e' veramente molto
+semplicistico...), dunque per la meta' di agosto (come avrete intuito,
+niente vacanze per me, quest'anno...), dunque tenetevi pronti a portarvi
+il laptop in spiaggia per debuggare ;-P
+
+
+- --
++-----------------------------+---------------------------+
+|<i>   Roberto -MadBob- Guido    | GPL Project Manager:      |
+</I>+-----------------------------+ <A HREF="http://BrainTop.sf.net">http://BrainTop.sf.net</A>    |
+|<i> bob4mail[AT]gmail[DOT]com   | <A HREF="http://Hyppocampus.sf.net">http://Hyppocampus.sf.net</A> |
+</I>|<i> <A HREF="http://madbob.homelinux.com">http://madbob.homelinux.com</A> | <A HREF="http://Synapse.berlios.de">http://Synapse.berlios.de</A> |
+</I>+-----------------------------+---------------------------+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.3 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - <A HREF="http://enigmail.mozdev.org">http://enigmail.mozdev.org</A>
+
+iD8DBQFExTZc4FoJpnnNInwRAnooAJ9xuNtIGRqL7fjHRxrfsArZ2UtrDgCgxFZZ
+VgoAj935T2K6vwqYe8L5uLs=
+=M/ya
+-----END PGP SIGNATURE-----
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#10">[ date ]</a>
+              <a href="thread.html#10">[ thread ]</a>
+              <a href="subject.html#10">[ subject ]</a>
+              <a href="author.html#10">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/synapse-devel">More information about the Synapse-devel
+mailing list</a><br>
+</body></html>

@@ -1,0 +1,74 @@
+From bob4mail at gmail.com  Sat Mar 24 13:55:36 2007
+From: bob4mail at gmail.com (Roberto -MadBob- Guido)
+Date: Sat, 24 Mar 2007 13:55:36 +0100
+Subject: [Synapse-devel] 0.2.1 + news
+Message-ID: <46051FC8.3010209@gmail.com>
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+L'altro giorno, con discreto ritardo sulla tabella di marcia (ho perso
+il ritmo della release ogni mese, ma in questo periodo ho accumulato
+notevoli quantita' di lavoro esterno...), e' stata rilasciata la
+versione 0.2.1 di Hyppocampus e di Synapse. Tra le novita' di maggior
+rilievo, il pannello per l'editing delle "actions" in Synapse (che
+permette di aggiungere comandi al menu contestuale dei files in funzione
+dei metadati ad esso associati) ed il primo plugin di Hyppocampus,
+dedicato al parsing dei files vCARD usati da KAddressBook ed altre
+applicazioni per immagazzinare le informazioni sui contatti di rubrica.
+Questa e' una release prettamente transitoria, ammetto di non aver avuto
+modo di testare sufficientemente le nuove features e ci sono discrete
+probabilita' di failure, ma tant'e'... Release early, release often...
+
+Qualche news sul progetto Lobotomy nella sua interezza:
+- - ho aperto un blog dedicato al progetto, che verra' via via aggiornato
+(con scarsa frequenza, ma costantemente) con informazioni sullo stato
+dello sviluppo e (soprattutto) pensieri e parole in merito alle altre
+tecnologie simili e potenzialmente ispiratorie. Puntate i vostri browser
+su http://lobotomy-dev.blogspot.com
+- - il componente SubConsciousDaemon e' stato estratto dal package di
+Synapse ed ha guadagnato lo status di progetto indipendente, con una sua
+propria pagina per lo sviluppo, i suoi propri trackers, una sua mailing
+list ed altro. Per maggiori informazioni: https://gna.org/projects/scd
+- - finalmente mi son deciso ad iniziare ad usare in modo completo gli
+strumenti messi a disposizione dai siti che ospitano i vari componenti
+del progetto Lobotomy: sia nella pagina di SCD che in quella di
+Hyppocampus (e prossimamente lo stesso accadra' per Synapse) ho iniziato
+a popolare i trackers dedicati ai "todo", si' da mettere in luce le
+attivita' su cui si dovrebbe lavorare prossimamente, sperando di carpire
+l'attenzione di potenziali developers di passaggio e ricevere supporto.
+In particolare, la lista di Hyppocampus e' colma di sotto-progetti il
+cui scopo e' la creazione di applicazioni di supporto esterne al
+filesystem stesso, e la cui implementazione non implica dunque una
+conoscenza degli internals del sistema.
+
+La roadmap per la release 0.2.2 prevede, tra le nuove funzionalita' di
+spicco, una sorta di "traduttore di query" da usare in Synapse (e non
+solo) che permettera' all'utente di definire le proprie query di ricerca
+in linguaggio "umano" (ovvero: coi nomi dei metadati anziche' i loro
+identificativi numerici, le date in formato locale anziche' in Unix
+time, gli utenti di sistema col nome anziche' con lo UID ed altro...) e
+(ma su questo ancora devo valutare in base al tempo a disposizione) una
+prima serie di tools commandline per usare facilmente Hyppocampus anche
+da linea di comando (o, ancora meglio, nei propri script bash).
+
+- --
++--- -- -                                                --  ----+
+|                                                                |
+|   Roberto -MadBob- Guido ---+--- bob4mail[AT]gmail[DOT]com     |
+                              |                                  .
+.                             +--- http://madbob.homelinux.com
+   Step #1 in programming:    |
+|     understand people       +--- http://lobotomy.sf.net        |
+|                                                                |
++--- ---- -                                             -- -  ---+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+iD8DBQFGBR/IRgBX4SLVA3IRAjnyAJ920UAm3bWNZeSiG3cYcIihTXV44gCfUibH
+axYZqrd4KrpdXtit1IMbsQo=
+=9bh1
+-----END PGP SIGNATURE-----
+
+
